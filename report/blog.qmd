@@ -1,0 +1,17 @@
+title: "Social Media and Mental Health: Is There a Hidden Cost?"
+author: "Stephanie Clarke"
+date: "2026-05-02"
+format:
+  html:
+    theme: pulse
+    toc: true
+    toc-title: "Contents"
+    code-fold: true
+    code-tools: true
+    fig-cap-location: bottom
+    self-contained: true
+execute:
+  echo: true
+  warning: false
+
+  

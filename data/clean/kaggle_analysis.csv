@@ -1,0 +1,482 @@
+age,gender,social_media_usage,social_media_platforms,social_media_time,restless_without_social_media,distraction,worry,concentration_difficulty,social_comparison,feeling_about_comparisons,seeking_validation,depression,mental_health_score
+21.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",2.5,2,5,2,5,2,3,2,5,3.4285714285714284
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",6.0,2,4,5,4,5,1,1,5,3.5714285714285716
+21.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",3.5,1,2,5,4,3,3,1,4,3.142857142857143
+21.0,female,Yes,"Facebook, Instagram",6.0,1,3,5,3,5,1,2,4,3.2857142857142856
+21.0,female,Yes,"Facebook, Instagram, YouTube",2.5,4,4,5,5,3,3,3,4,3.857142857142857
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest, TikTok",2.5,2,3,4,3,4,4,3,3,3.4285714285714284
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, TikTok",3.5,2,2,4,3,5,3,4,5,3.7142857142857144
+21.0,female,Yes,"Facebook, Instagram, YouTube",6.0,3,3,3,1,1,3,1,5,2.4285714285714284
+21.0,female,Yes,"Facebook, Instagram, YouTube",6.0,3,3,1,1,1,3,1,5,2.142857142857143
+20.0,male,No,"Reddit, Pinterest",0.5,1,1,1,1,1,1,1,1,1.0
+24.0,male,Yes,"Facebook, Instagram, YouTube, Discord",2.5,2,4,3,5,4,2,3,5,3.7142857142857144
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3.5,2,5,3,4,2,2,3,3,3.142857142857143
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",3.5,2,4,4,2,4,2,1,3,2.857142857142857
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Reddit, Pinterest",3.5,2,1,4,4,2,3,2,3,2.7142857142857144
+22.0,male,Yes,"Facebook, YouTube, Pinterest",6.0,5,5,5,5,5,5,5,5,5.0
+23.0,male,Yes,"Facebook, Instagram, YouTube, Reddit",1.5,2,3,4,4,3,2,2,3,3.0
+21.0,male,Yes,"Facebook, YouTube, Discord",0.5,1,2,4,2,1,3,1,4,2.4285714285714284
+25.0,male,Yes,"Facebook, Instagram, YouTube, Reddit",4.5,4,4,3,3,1,4,2,2,2.7142857142857144
+28.0,male,Yes,"Facebook, YouTube, Discord, Reddit",1.5,2,4,5,5,2,3,1,3,3.2857142857142856
+34.0,male,Yes,"Facebook, Twitter, Instagram, YouTube",1.5,3,3,4,1,1,5,3,2,2.7142857142857144
+22.0,male,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",2.5,2,3,3,2,2,2,1,2,2.142857142857143
+23.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, TikTok",6.0,4,2,4,2,5,2,1,3,2.7142857142857144
+26.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",3.5,3,3,4,4,4,3,3,4,3.5714285714285716
+23.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",1.5,2,4,4,3,3,2,3,4,3.2857142857142856
+23.0,male,Yes,"Facebook, Twitter, YouTube, Discord",3.5,5,5,5,5,4,1,3,3,3.7142857142857144
+35.0,female,Yes,"Facebook, YouTube",3.5,3,3,3,3,4,4,4,4,3.5714285714285716
+20.0,male,Yes,"Facebook, Instagram, YouTube, Discord",3.5,3,3,3,4,2,3,3,4,3.142857142857143
+35.0,male,Yes,"Facebook, Twitter, Instagram, YouTube",2.5,4,4,4,4,4,4,4,4,4.0
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",4.5,3,4,5,4,4,3,2,4,3.7142857142857144
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",3.5,5,5,5,4,4,4,3,5,4.285714285714286
+22.0,female,Yes,"Facebook, Instagram, YouTube, Discord",3.5,3,3,5,4,5,2,3,5,3.857142857142857
+35.0,male,Yes,"Facebook, YouTube, Pinterest",2.5,3,3,3,2,2,2,2,3,2.4285714285714284
+24.0,male,Yes,"Facebook, Instagram, YouTube, TikTok",2.5,3,3,3,4,2,3,3,2,2.857142857142857
+18.0,female,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",2.5,3,3,4,3,3,2,4,3,3.142857142857143
+19.0,female,Yes,"Facebook, Instagram, YouTube, Discord",3.5,5,5,5,5,2,3,1,5,3.7142857142857144
+21.0,non-binary,Yes,"Facebook, Twitter, Instagram, YouTube, Discord",6.0,5,4,4,5,1,3,1,4,3.142857142857143
+21.0,male,Yes,"Facebook, Instagram",3.5,4,3,2,3,5,3,4,3,3.2857142857142856
+23.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",0.5,1,1,1,3,1,3,1,5,2.142857142857143
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",3.5,5,4,4,4,2,3,3,2,3.142857142857143
+22.0,male,Yes,"Facebook, YouTube, Discord",2.5,2,4,3,5,1,3,1,1,2.5714285714285716
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",1.5,1,1,1,1,2,1,2,3,1.5714285714285714
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",3.5,2,3,3,3,3,4,2,4,3.142857142857143
+56.0,female,Yes,YouTube,1.5,1,1,3,1,1,3,1,2,1.7142857142857142
+19.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",6.0,4,4,5,4,5,2,1,5,3.7142857142857144
+24.0,male,Yes,"Twitter, Discord, Reddit",6.0,1,3,3,3,1,3,3,3,2.7142857142857144
+22.0,female,Yes,"Facebook, Instagram, YouTube",6.0,4,4,5,2,3,3,3,3,3.2857142857142856
+65.0,male,Yes,"Facebook, YouTube",3.5,2,2,2,1,3,4,3,1,2.2857142857142856
+17.0,female,Yes,"Instagram, YouTube, Reddit, Pinterest",3.5,1,3,5,3,4,2,1,3,3.0
+40.0,male,Yes,"Twitter, YouTube, Reddit",2.5,3,3,2,3,2,3,1,2,2.2857142857142856
+33.0,female,Yes,"Facebook, YouTube",3.5,1,3,2,1,2,2,1,1,1.7142857142857142
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3.5,3,4,3,2,1,3,3,3,2.7142857142857144
+24.0,male,Yes,"YouTube, Snapchat, Discord",6.0,5,5,4,5,2,2,1,3,3.142857142857143
+26.0,male,Yes,Facebook,0.5,3,5,5,5,5,5,5,5,5.0
+55.0,male,Yes,"Discord, Reddit",1.5,1,3,2,1,1,3,1,1,1.7142857142857142
+26.0,male,No,"YouTube, Discord, Reddit",1.5,1,2,2,1,1,3,1,1,1.5714285714285714
+27.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Reddit, TikTok",6.0,5,4,4,5,3,3,4,5,4.0
+22.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",6.0,1,2,4,2,1,3,1,3,2.2857142857142856
+19.0,female,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",2.5,2,2,4,3,3,3,2,4,3.0
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",2.5,2,4,4,4,3,3,4,5,3.857142857142857
+20.0,female,Yes,"Instagram, Reddit",1.5,1,2,2,2,1,3,1,1,1.7142857142857142
+25.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Discord",6.0,3,4,4,4,2,2,2,4,3.142857142857143
+25.0,female,Yes,"YouTube, Reddit",1.5,1,3,5,4,5,2,4,4,3.857142857142857
+18.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",6.0,3,5,4,3,1,3,1,5,3.142857142857143
+25.0,male,Yes,Reddit,1.5,1,3,2,4,1,3,1,5,2.7142857142857144
+19.0,female,Yes,"Discord, Reddit",2.5,1,5,3,5,1,3,1,1,2.7142857142857144
+24.0,male,Yes,"YouTube, Discord, Reddit",1.5,4,3,2,2,1,3,2,2,2.142857142857143
+21.0,male,Yes,"Facebook, Instagram, Reddit, TikTok",3.5,5,5,5,5,5,2,4,4,4.285714285714286
+18.0,non-binary,Yes,"Twitter, Instagram, YouTube, Reddit, TikTok",2.5,2,3,5,3,2,3,2,4,3.142857142857143
+14.0,male,Yes,Reddit,1.5,2,3,5,3,3,4,2,4,3.4285714285714284
+25.0,male,Yes,"YouTube, Snapchat, Discord, Reddit",3.5,3,3,3,2,3,2,2,3,2.5714285714285716
+33.0,male,Yes,"Instagram, YouTube",3.5,3,2,2,2,1,1,1,1,1.4285714285714286
+23.0,male,Yes,"Instagram, YouTube, Discord, Reddit",2.5,5,5,5,5,5,5,5,5,5.0
+14.0,female,Yes,"Twitter, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",6.0,2,2,4,2,4,2,4,4,3.142857142857143
+38.0,male,Yes,"Twitter, YouTube, Discord, Reddit",1.5,1,3,2,1,1,3,1,2,1.8571428571428572
+23.0,female,Yes,"Facebook, YouTube, Discord, Reddit",4.5,3,3,4,5,3,2,4,5,3.7142857142857144
+26.0,male,Yes,Reddit,0.5,1,3,2,1,1,1,1,2,1.5714285714285714
+24.0,male,Yes,"Facebook, YouTube, Reddit",2.5,3,4,3,2,2,3,4,5,3.2857142857142856
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",3.5,4,4,5,4,5,1,2,4,3.5714285714285716
+18.0,female,Yes,"Facebook, YouTube, Reddit",3.5,3,3,5,5,4,3,1,5,3.7142857142857144
+28.0,male,Yes,"Facebook, YouTube, Discord, Reddit",3.5,4,3,5,5,5,2,1,5,3.7142857142857144
+22.0,male,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",2.5,4,5,5,5,3,3,1,4,3.7142857142857144
+21.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",6.0,2,5,4,4,3,3,2,1,3.142857142857143
+21.0,male,Yes,"Instagram, YouTube, Snapchat, Discord, Reddit",6.0,3,5,4,5,2,3,2,4,3.5714285714285716
+21.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",4.5,5,5,3,5,4,4,3,4,4.0
+17.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit",2.5,3,4,5,4,3,2,4,2,3.4285714285714284
+24.0,non-binary,Yes,"YouTube, Reddit",2.5,2,3,5,2,3,2,2,4,3.0
+22.0,female,Yes,"Facebook, YouTube",1.5,3,4,1,3,1,2,2,2,2.142857142857143
+32.0,female,Yes,Reddit,1.5,2,5,2,5,2,4,1,1,2.857142857142857
+22.0,male,Yes,"Facebook, YouTube",2.5,2,2,1,3,1,3,5,3,2.5714285714285716
+20.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",2.5,4,5,5,5,4,2,4,5,4.285714285714286
+22.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat",2.5,2,4,4,4,2,3,2,4,3.2857142857142856
+28.0,female,Yes,"Facebook, YouTube",3.5,4,5,5,5,2,3,2,4,3.7142857142857144
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",6.0,3,4,5,4,1,3,2,4,3.2857142857142856
+17.0,other,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",4.5,3,4,2,4,3,2,2,3,2.857142857142857
+30.0,female,Yes,Instagram,4.5,3,2,4,4,3,3,3,4,3.2857142857142856
+22.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",6.0,1,3,2,5,2,1,1,3,2.4285714285714284
+14.0,male,Yes,"Instagram, YouTube, Discord",4.5,2,4,2,3,1,3,1,1,2.142857142857143
+20.0,male,Yes,"YouTube, Reddit",6.0,1,2,1,1,2,2,1,4,1.8571428571428572
+22.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",6.0,4,4,4,5,5,3,4,5,4.285714285714286
+16.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",4.5,2,5,3,4,3,1,4,2,3.142857142857143
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube",2.5,3,4,4,3,2,2,3,3,3.0
+22.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",1.5,3,4,4,2,1,1,1,5,2.5714285714285716
+22.0,male,Yes,Instagram,3.5,3,3,4,3,2,3,3,4,3.142857142857143
+22.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",1.5,4,3,5,5,3,3,4,3,3.7142857142857144
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",4.5,4,3,3,3,3,4,4,1,3.0
+23.0,female,Yes,"Facebook, YouTube",4.5,4,3,3,3,3,4,3,2,3.0
+23.0,female,Yes,"Facebook, Instagram, TikTok",2.5,2,4,2,2,1,3,3,3,2.5714285714285716
+48.0,female,Yes,"Facebook, YouTube",1.5,1,1,3,2,1,3,2,1,1.8571428571428572
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",3.5,1,3,2,3,2,1,3,2,2.2857142857142856
+47.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",2.5,3,3,2,2,2,3,3,3,2.5714285714285716
+48.0,male,Yes,"Facebook, Instagram, YouTube",2.5,4,4,4,4,4,3,3,2,3.4285714285714284
+26.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",6.0,4,4,5,3,5,4,3,4,4.0
+47.0,male,Yes,"Facebook, YouTube",2.5,4,4,3,3,2,3,1,2,2.5714285714285716
+47.0,male,Yes,"Facebook, Instagram, Snapchat",1.5,3,3,3,3,3,3,2,2,2.7142857142857144
+27.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,4,4,3,2,5,1,4,4,3.2857142857142856
+34.0,female,Yes,Facebook,6.0,4,5,3,1,3,3,3,2,2.857142857142857
+20.0,female,Yes,"Facebook, Instagram",2.5,5,5,5,5,3,1,1,3,3.2857142857142856
+22.0,female,Yes,Facebook,6.0,5,4,5,4,3,3,4,3,3.7142857142857144
+23.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",6.0,5,5,5,4,5,5,4,5,4.714285714285714
+20.0,male,Yes,"Facebook, Instagram, YouTube",4.5,3,4,3,5,2,3,3,4,3.4285714285714284
+48.0,female,Yes,"Facebook, Instagram",0.5,1,3,2,1,1,3,2,1,1.8571428571428572
+20.0,female,Yes,"Facebook, Instagram, YouTube, TikTok",3.5,1,2,4,2,4,2,1,3,2.5714285714285716
+20.0,female,Yes,"Facebook, YouTube, Snapchat, Pinterest",4.5,5,5,2,5,2,3,1,5,3.2857142857142856
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,4,5,5,5,3,1,1,4,3.4285714285714284
+22.0,female,Yes,Instagram,6.0,3,3,2,3,4,5,4,1,3.142857142857143
+20.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,3,5,4,3,2,2,2,4,3.142857142857143
+24.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",2.5,3,3,4,4,3,3,2,4,3.2857142857142856
+23.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6.0,4,3,5,3,5,1,4,4,3.5714285714285716
+20.0,female,Yes,"Facebook, Instagram, YouTube",3.5,1,2,1,1,5,1,1,4,2.142857142857143
+16.0,male,Yes,"Instagram, YouTube, Snapchat, Pinterest",2.5,2,3,3,2,2,4,1,3,2.5714285714285716
+50.0,female,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",2.5,1,3,3,2,1,4,3,1,2.4285714285714284
+47.0,male,Yes,"Facebook, YouTube",1.5,2,3,2,1,4,2,3,3,2.5714285714285716
+24.0,male,Yes,"Facebook, Twitter, Instagram, YouTube",2.5,2,3,4,3,2,4,2,3,3.0
+38.0,female,Yes,Facebook,0.5,3,2,2,1,3,1,1,2,1.7142857142857142
+50.0,male,No,"Instagram, YouTube",1.5,1,2,2,2,1,4,1,2,2.0
+49.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",4.5,3,3,4,3,3,3,3,4,3.2857142857142856
+47.0,female,Yes,"Facebook, YouTube, Pinterest",2.5,3,3,3,2,1,3,1,1,2.0
+48.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",2.5,1,3,1,1,1,1,1,1,1.2857142857142858
+51.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",1.5,2,3,3,4,3,3,3,3,3.142857142857143
+50.0,male,Yes,"Facebook, Twitter, Instagram, YouTube",3.5,4,5,5,4,3,4,3,4,4.0
+47.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",3.5,2,2,2,2,3,4,1,1,2.142857142857143
+27.0,female,Yes,"Facebook, Instagram, YouTube",4.5,2,5,5,5,5,2,3,3,4.0
+40.0,female,Yes,"Facebook, Twitter, Instagram, YouTube",1.5,1,2,4,3,3,3,3,4,3.142857142857143
+46.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",0.5,1,1,2,1,1,3,5,2,2.142857142857143
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4.5,4,3,3,2,5,2,3,5,3.2857142857142856
+47.0,female,Yes,Facebook,1.5,3,3,2,2,4,2,3,3,2.7142857142857144
+20.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",6.0,3,4,4,4,5,1,4,4,3.7142857142857144
+47.0,female,Yes,"Facebook, Twitter, Instagram, YouTube",1.5,3,4,5,4,2,2,1,2,2.857142857142857
+48.0,male,Yes,"Facebook, Instagram, YouTube",3.5,3,3,2,2,3,3,3,2,2.5714285714285716
+49.0,male,Yes,"Facebook, YouTube",4.5,2,2,2,2,2,4,2,2,2.2857142857142856
+21.0,male,Yes,"Facebook, YouTube, Discord",3.5,1,1,2,2,2,4,3,2,2.2857142857142856
+32.0,female,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",4.5,4,3,2,1,1,5,1,1,2.0
+47.0,female,Yes,"Twitter, Instagram, YouTube",2.5,2,3,2,2,3,3,2,2,2.4285714285714284
+50.0,male,Yes,"Facebook, Twitter, YouTube",1.5,2,3,2,2,1,1,3,3,2.142857142857143
+48.0,male,Yes,"Facebook, Twitter, Instagram, YouTube",0.5,1,2,4,2,1,3,3,4,2.7142857142857144
+21.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",3.5,1,5,4,5,3,3,2,3,3.5714285714285716
+47.0,male,Yes,Twitter,0.5,2,5,3,4,2,3,1,2,2.857142857142857
+36.0,female,Yes,YouTube,2.5,1,2,4,4,1,1,1,1,2.0
+37.0,female,Yes,"Facebook, Instagram, YouTube",1.5,2,2,1,3,1,2,2,4,2.142857142857143
+19.0,female,Yes,Facebook,4.5,4,3,5,4,2,5,4,4,3.857142857142857
+30.0,male,Yes,"Facebook, Instagram, YouTube",1.5,1,2,2,1,4,2,2,2,2.142857142857143
+48.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",0.5,1,1,1,1,5,3,2,1,2.0
+48.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest, TikTok",6.0,5,5,4,5,3,3,2,3,3.5714285714285716
+48.0,male,Yes,"Twitter, YouTube",3.5,3,3,4,3,2,3,2,3,2.857142857142857
+47.0,male,Yes,"Twitter, Instagram, YouTube, Reddit, TikTok",2.5,3,5,5,5,2,5,2,3,3.857142857142857
+47.0,female,Yes,"Facebook, Twitter",0.5,2,3,2,2,4,3,2,2,2.5714285714285716
+48.0,male,Yes,"Facebook, YouTube, Pinterest",0.5,1,2,2,1,1,1,1,2,1.4285714285714286
+21.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",2.5,2,3,2,1,3,5,3,2,2.7142857142857144
+48.0,male,Yes,"Twitter, YouTube",1.5,1,2,1,1,2,3,1,1,1.5714285714285714
+21.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",0.5,2,4,3,3,2,3,1,2,2.5714285714285716
+20.0,male,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",6.0,5,4,2,4,3,3,1,3,2.857142857142857
+20.0,female,Yes,"Facebook, YouTube",3.5,4,4,5,5,5,2,2,3,3.7142857142857144
+20.0,male,Yes,"Facebook, Instagram, YouTube",1.5,2,3,4,5,3,2,4,5,3.7142857142857144
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",1.5,4,4,4,2,4,3,4,3,3.4285714285714284
+20.0,female,Yes,"Instagram, YouTube, Pinterest",4.5,5,5,4,4,5,4,3,4,4.142857142857143
+47.0,male,Yes,"Twitter, Instagram, YouTube, Reddit, TikTok",2.5,3,2,4,3,1,2,1,1,2.0
+35.0,female,Yes,"Facebook, YouTube",0.5,1,1,1,1,1,3,4,1,1.7142857142857142
+23.0,female,Yes,Pinterest,3.5,3,4,3,5,1,3,3,4,3.2857142857142856
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",4.5,4,5,5,4,3,2,1,3,3.2857142857142856
+21.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",2.5,5,2,4,1,3,2,4,4,2.857142857142857
+37.0,female,Yes,"Facebook, YouTube",1.5,4,3,5,2,5,2,2,4,3.2857142857142856
+48.0,male,Yes,"Facebook, Twitter, Instagram, YouTube",1.5,2,3,2,2,2,3,3,3,2.5714285714285716
+47.0,male,Yes,"Facebook, YouTube, TikTok",0.5,1,2,4,2,3,3,2,1,2.4285714285714284
+25.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest, TikTok",4.5,5,4,5,4,2,4,4,5,4.0
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",6.0,4,5,4,3,2,3,3,3,3.2857142857142856
+45.0,male,Yes,"Facebook, YouTube",2.5,3,3,3,3,3,2,2,2,2.5714285714285716
+47.0,male,Yes,"Instagram, YouTube",1.5,2,4,3,2,2,3,3,3,2.857142857142857
+47.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",4.5,2,3,3,1,3,3,1,3,2.4285714285714284
+24.0,female,Yes,"Facebook, Instagram, Pinterest",6.0,4,3,4,5,3,3,3,4,3.5714285714285716
+21.0,female,Yes,Instagram,2.5,5,5,1,5,2,5,5,2,3.5714285714285716
+22.0,female,Yes,"Facebook, YouTube, Discord, Reddit, Pinterest",2.5,2,2,2,2,1,3,3,4,2.4285714285714284
+19.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",2.5,3,3,3,3,3,5,3,4,3.4285714285714284
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",4.5,2,4,2,4,3,2,1,4,2.857142857142857
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,3,3,5,3,2,3,4,5,3.5714285714285716
+20.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",3.5,4,4,5,4,1,3,4,4,3.5714285714285716
+42.0,female,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",2.5,1,1,1,1,1,3,1,1,1.2857142857142858
+35.0,female,Yes,Facebook,2.5,2,2,1,3,2,4,1,3,2.2857142857142856
+38.0,male,Yes,"Facebook, Twitter, YouTube, Discord, Reddit",4.5,3,2,3,2,3,4,3,2,2.7142857142857144
+17.0,male,Yes,"Facebook, Instagram, YouTube",0.5,2,2,2,1,1,2,1,1,1.4285714285714286
+32.0,male,Yes,"Facebook, YouTube, Discord, Reddit",1.5,3,2,2,1,1,3,1,1,1.5714285714285714
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",1.5,2,5,4,5,4,2,2,2,3.4285714285714284
+22.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",3.5,2,2,4,3,2,4,2,3,2.857142857142857
+27.0,female,Yes,"Facebook, Instagram, YouTube",6.0,3,3,3,3,1,3,1,3,2.4285714285714284
+21.0,male,Yes,"Facebook, Instagram, YouTube, Discord, Reddit, TikTok",3.5,3,5,5,5,5,2,4,3,4.142857142857143
+27.0,male,Yes,"Facebook, Discord, Reddit",6.0,5,5,5,5,1,3,1,5,3.5714285714285716
+20.0,male,Yes,"Instagram, Discord, Reddit, Pinterest, TikTok",2.5,3,2,3,2,3,2,3,2,2.4285714285714284
+27.0,female,Yes,"Facebook, Instagram, YouTube",3.5,4,5,4,3,2,2,1,1,2.5714285714285716
+24.0,male,Yes,"Facebook, Instagram, YouTube, Discord",3.5,5,5,1,5,5,4,1,5,3.7142857142857144
+26.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",2.5,1,1,1,1,1,1,1,1,1.0
+20.0,female,Yes,"Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3.5,1,2,5,3,5,4,3,4,3.7142857142857144
+31.0,male,Yes,"Facebook, Instagram, YouTube, Discord",2.5,3,3,4,3,4,4,4,3,3.5714285714285716
+21.0,male,Yes,"YouTube, Discord, Reddit",6.0,1,1,1,1,1,3,1,1,1.2857142857142858
+34.0,male,Yes,"Facebook, YouTube, TikTok",6.0,2,3,3,4,4,4,5,5,4.0
+22.0,male,Yes,"Facebook, YouTube, Snapchat",0.5,1,1,1,1,1,1,1,1,1.0
+20.0,female,Yes,Instagram,6.0,1,3,5,3,2,3,5,4,3.5714285714285716
+23.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",4.5,1,1,3,1,1,3,1,3,1.8571428571428572
+48.0,male,Yes,"Facebook, YouTube",0.5,1,1,1,1,5,5,3,1,2.4285714285714284
+37.0,male,Yes,"Facebook, YouTube",1.5,1,3,4,4,4,4,3,2,3.4285714285714284
+22.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat",1.5,2,3,4,4,4,4,3,5,3.857142857142857
+50.0,male,Yes,Facebook,1.5,3,3,3,5,4,5,5,2,3.857142857142857
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",6.0,4,5,5,5,4,2,3,3,3.857142857142857
+23.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",2.5,1,3,2,2,1,2,1,2,1.8571428571428572
+21.0,female,Yes,"Facebook, YouTube",1.5,1,3,4,3,5,2,3,3,3.2857142857142856
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",3.5,3,3,3,2,2,3,3,3,2.7142857142857144
+22.0,female,Yes,Facebook,6.0,4,4,3,4,3,4,3,4,3.5714285714285716
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, TikTok",6.0,3,3,3,4,5,3,3,2,3.2857142857142856
+19.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",3.5,5,3,5,4,5,1,5,4,3.857142857142857
+23.0,female,Yes,"Facebook, Instagram, YouTube",2.5,3,5,3,5,1,3,2,2,3.0
+46.0,male,Yes,"Facebook, YouTube",0.5,1,1,1,1,1,2,1,1,1.1428571428571428
+21.0,male,Yes,"Facebook, Instagram, YouTube",6.0,3,4,4,4,3,3,4,4,3.7142857142857144
+24.0,female,Yes,"Facebook, Instagram, YouTube, Discord",6.0,1,2,4,3,4,4,3,4,3.4285714285714284
+20.0,female,Yes,"Facebook, Instagram, YouTube",0.5,1,1,2,2,5,1,2,1,2.0
+25.0,male,Yes,YouTube,1.5,1,1,2,3,4,5,3,5,3.2857142857142856
+21.0,female,Yes,"Facebook, YouTube, Discord, Pinterest",3.5,1,2,2,1,1,1,1,1,1.2857142857142858
+23.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, TikTok",6.0,3,5,4,4,4,2,1,4,3.4285714285714284
+22.0,female,Yes,"Instagram, YouTube, Discord, Reddit, TikTok",6.0,4,4,4,3,4,4,4,4,3.857142857142857
+36.0,male,Yes,"Facebook, Instagram, YouTube, Pinterest",0.5,1,2,3,1,3,3,1,2,2.142857142857143
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",2.5,3,5,5,2,3,1,2,5,3.2857142857142856
+69.0,trans,Yes,TikTok,6.0,5,5,5,5,5,5,5,5,5.0
+25.0,female,Yes,"Facebook, Instagram, YouTube",4.5,2,5,5,1,5,1,5,4,3.7142857142857144
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",4.5,1,5,4,3,5,1,4,4,3.7142857142857144
+23.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",3.5,2,5,5,5,5,4,4,2,4.285714285714286
+23.0,male,Yes,"Facebook, Instagram",0.5,1,3,4,3,3,3,2,3,3.0
+19.0,female,Yes,"Facebook, Instagram, YouTube, Discord",3.5,2,3,5,5,2,3,3,3,3.4285714285714284
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",1.5,2,4,2,2,1,4,2,3,2.5714285714285716
+27.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",4.5,3,4,4,4,4,2,3,4,3.5714285714285716
+25.0,female,Yes,"Facebook, YouTube, Discord",6.0,1,2,4,3,4,2,2,4,3.0
+20.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",2.5,1,3,4,1,1,5,1,2,2.4285714285714284
+34.0,female,Yes,Facebook,1.5,1,1,1,5,2,3,5,1,2.5714285714285716
+23.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",6.0,3,3,5,3,3,4,3,4,3.5714285714285716
+34.0,female,Yes,Facebook,1.5,1,1,1,1,2,1,1,1,1.1428571428571428
+26.0,female,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest, TikTok",4.5,3,5,5,5,3,3,3,5,4.142857142857143
+25.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",4.5,2,5,1,5,2,3,4,5,3.5714285714285716
+22.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",2.5,2,3,3,2,1,3,2,2,2.2857142857142856
+20.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",0.5,1,3,5,2,1,4,2,2,2.7142857142857144
+23.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,3,4,5,5,5,1,3,3,3.7142857142857144
+91.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",2.5,4,4,5,5,5,1,5,5,4.285714285714286
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4.5,2,1,1,1,1,2,1,1,1.1428571428571428
+23.0,female,Yes,"Facebook, Instagram, YouTube, TikTok",6.0,2,3,3,4,3,3,4,4,3.4285714285714284
+21.0,female,Yes,"Facebook, Instagram, Discord",2.5,4,2,3,4,2,4,2,3,2.857142857142857
+36.0,female,Yes,"Facebook, YouTube, Snapchat",1.5,1,2,2,1,1,3,2,2,1.8571428571428572
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",2.5,2,3,5,4,3,3,3,5,3.7142857142857144
+22.0,female,Yes,"Facebook, Instagram, YouTube",1.5,2,2,2,3,4,3,3,3,2.857142857142857
+22.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest, TikTok",6.0,3,4,2,4,4,3,4,3,3.4285714285714284
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,5,4,4,4,4,3,2,2,3.2857142857142856
+20.0,female,Yes,"Facebook, Instagram, YouTube, Discord",3.5,3,3,4,3,4,3,3,3,3.2857142857142856
+26.0,female,Yes,"Facebook, Twitter, Instagram, YouTube",6.0,1,3,3,2,2,4,1,2,2.4285714285714284
+21.0,male,Yes,YouTube,2.5,2,5,5,4,2,3,2,4,3.5714285714285716
+20.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6.0,3,5,5,5,2,3,1,3,3.4285714285714284
+21.0,female,Yes,"Facebook, Twitter, YouTube, Discord, Pinterest",6.0,1,2,3,1,1,3,1,3,2.0
+19.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",6.0,1,5,2,3,1,3,1,2,2.4285714285714284
+20.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",6.0,5,5,5,5,5,1,4,5,4.285714285714286
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3.5,3,4,4,3,2,3,4,3,3.2857142857142856
+23.0,male,Yes,"YouTube, Discord, Reddit",1.5,1,5,5,5,1,3,1,5,3.5714285714285716
+21.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit",2.5,4,5,5,4,4,2,3,3,3.7142857142857144
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",3.5,2,5,5,4,4,3,3,5,4.142857142857143
+22.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4.5,3,5,5,5,5,5,5,5,5.0
+26.0,male,Yes,"Facebook, Instagram, YouTube, Discord",6.0,5,5,5,5,5,5,1,5,4.428571428571429
+22.0,female,Yes,"Facebook, Instagram, YouTube, Discord",2.5,2,3,5,3,1,3,4,5,3.4285714285714284
+17.0,male,Yes,Discord,2.5,3,3,3,3,5,3,4,5,3.7142857142857144
+23.0,male,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest, TikTok",6.0,3,4,5,4,5,4,4,3,4.142857142857143
+21.0,male,Yes,"Facebook, Instagram, YouTube, Discord, Reddit, Pinterest",3.5,2,4,5,4,5,4,4,4,4.285714285714286
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,1,1,1,1,2,2,1,2,1.4285714285714286
+20.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",6.0,3,2,5,3,4,2,1,5,3.142857142857143
+24.0,female,Yes,"Facebook, Twitter, Instagram, YouTube",4.5,3,4,4,4,3,3,3,4,3.5714285714285716
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",3.5,2,5,4,5,3,2,2,3,3.4285714285714284
+24.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord",3.5,2,3,2,3,2,1,3,2,2.2857142857142856
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",6.0,4,5,5,4,5,2,4,5,4.285714285714286
+26.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",4.5,2,2,4,2,2,3,4,4,3.0
+24.0,female,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",3.5,1,2,4,2,1,1,3,3,2.2857142857142856
+22.0,female,Yes,"Facebook, YouTube",2.5,1,2,2,3,3,3,3,3,2.7142857142857144
+25.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",3.5,1,2,4,3,3,3,2,4,3.0
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4.5,3,4,4,5,2,3,3,4,3.5714285714285716
+20.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, TikTok",2.5,4,4,4,4,5,5,4,5,4.428571428571429
+22.0,female,Yes,"Facebook, Instagram, YouTube",1.5,1,3,1,1,1,3,5,1,2.142857142857143
+25.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",2.5,3,2,4,4,3,3,1,2,2.7142857142857144
+17.0,male,Yes,"Facebook, Discord",4.5,4,2,5,2,4,3,1,4,3.0
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube",2.5,3,3,5,4,4,3,3,4,3.7142857142857144
+26.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit",1.5,2,4,4,4,2,2,1,3,2.857142857142857
+22.0,female,Yes,Facebook,2.5,2,3,3,3,4,3,3,5,3.4285714285714284
+23.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest",2.5,5,3,5,3,3,3,3,5,3.5714285714285716
+25.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat",2.5,2,3,5,4,1,1,2,5,3.0
+21.0,male,Yes,"Instagram, YouTube, Snapchat, Discord, Reddit",2.5,3,5,2,5,2,3,4,4,3.5714285714285716
+30.0,female,Yes,"Facebook, TikTok",2.5,4,3,3,5,4,3,1,4,3.2857142857142856
+23.0,female,Yes,"Facebook, Instagram, YouTube",3.5,1,3,4,3,4,2,2,3,3.0
+22.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",4.5,4,5,5,4,3,3,3,3,3.7142857142857144
+21.0,female,Yes,"Facebook, Instagram, YouTube",4.5,5,4,4,3,5,2,2,5,3.5714285714285716
+20.0,female,Yes,"Facebook, YouTube",3.5,2,4,2,2,1,3,5,1,2.5714285714285716
+18.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",6.0,2,2,4,2,1,3,3,2,2.4285714285714284
+20.0,female,Yes,"Twitter, Instagram, YouTube",3.5,2,2,4,2,2,3,2,2,2.4285714285714284
+15.0,female,Yes,"Instagram, YouTube, Discord, Pinterest",3.5,1,3,5,3,3,3,1,5,3.2857142857142856
+22.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",6.0,2,3,5,5,1,3,1,3,3.0
+17.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6.0,4,5,3,5,2,2,3,2,3.142857142857143
+21.0,male,Yes,"Facebook, Instagram",1.5,1,4,5,4,3,3,1,5,3.5714285714285716
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",6.0,4,1,4,4,3,4,2,4,3.142857142857143
+23.0,female,Yes,Facebook,6.0,3,4,4,5,4,4,3,3,3.857142857142857
+24.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",3.5,1,1,4,1,1,3,1,3,2.0
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,4,5,3,5,3,3,2,5,3.7142857142857144
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6.0,5,5,5,5,5,1,4,5,4.285714285714286
+22.0,female,Yes,"Facebook, YouTube, Snapchat, Discord",6.0,5,5,5,5,5,5,5,5,5.0
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, TikTok",6.0,5,4,5,4,5,5,3,5,4.428571428571429
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest",6.0,2,2,4,4,4,3,3,4,3.4285714285714284
+18.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest",6.0,1,2,4,3,1,3,3,3,2.7142857142857144
+19.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord",0.5,1,2,4,2,2,3,4,2,2.7142857142857144
+22.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",6.0,2,4,5,5,1,1,1,5,3.142857142857143
+21.0,non-binary,Yes,"Facebook, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",6.0,3,5,5,4,4,3,5,5,4.428571428571429
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",3.5,4,5,5,4,5,5,3,5,4.571428571428571
+22.0,male,Yes,"Facebook, Instagram, YouTube, Discord, Pinterest",2.5,4,4,5,5,2,2,5,5,4.0
+21.0,female,Yes,"Facebook, Instagram, Snapchat, Pinterest, TikTok",2.5,1,3,2,2,2,2,2,4,2.4285714285714284
+23.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",2.5,3,5,4,5,3,2,2,4,3.5714285714285716
+19.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3.5,2,2,3,1,2,5,1,1,2.142857142857143
+26.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",2.5,2,4,3,3,4,3,1,4,3.142857142857143
+27.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",2.5,2,2,1,1,2,4,1,3,2.0
+25.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest, TikTok",6.0,4,4,5,1,2,2,3,5,3.142857142857143
+20.0,female,Yes,"Facebook, Instagram, YouTube, Discord",4.5,3,3,3,3,3,3,3,3,3.0
+20.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",6.0,4,3,5,4,1,3,2,4,3.142857142857143
+22.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",3.5,1,3,3,1,1,1,1,1,1.5714285714285714
+18.0,female,Yes,"Facebook, Instagram, YouTube",3.5,2,5,4,5,5,2,4,4,4.142857142857143
+22.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit",2.5,2,3,4,3,2,4,1,3,2.857142857142857
+20.0,male,Yes,"Facebook, Twitter, Instagram, Snapchat, Reddit",1.5,2,3,5,3,1,3,4,5,3.4285714285714284
+24.0,male,Yes,"YouTube, Discord",6.0,5,5,4,5,1,3,1,3,3.142857142857143
+21.0,male,Yes,"Facebook, Instagram, YouTube",4.5,3,3,5,5,4,4,4,3,4.0
+29.0,female,Yes,"Facebook, Instagram",3.5,1,3,5,3,2,2,1,5,3.0
+21.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, TikTok",1.5,3,3,5,2,4,2,2,2,2.857142857142857
+19.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",6.0,4,3,5,4,1,5,1,5,3.4285714285714284
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",2.5,3,4,4,4,2,3,1,5,3.2857142857142856
+43.0,male,Yes,"Facebook, YouTube",0.5,1,1,1,1,1,3,3,1,1.5714285714285714
+22.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4.5,3,4,4,4,4,1,1,4,3.142857142857143
+24.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",4.5,3,5,5,5,1,3,1,3,3.2857142857142856
+18.0,female,Yes,"Facebook, YouTube",6.0,3,3,5,4,1,3,1,5,3.142857142857143
+19.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",3.5,1,3,4,4,2,3,1,4,3.0
+37.0,female,Yes,"Facebook, YouTube",1.5,1,3,3,2,2,3,1,3,2.4285714285714284
+24.0,male,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",4.5,2,4,4,5,4,2,3,3,3.5714285714285716
+29.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",1.5,1,4,5,4,4,2,1,5,3.5714285714285716
+19.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",4.5,2,2,3,2,2,1,3,2,2.142857142857143
+35.0,male,Yes,"Facebook, Instagram, YouTube, Discord",0.5,2,2,4,4,2,2,4,3,3.0
+22.0,female,Yes,"Twitter, Discord, Reddit",2.5,4,5,5,4,3,3,1,4,3.5714285714285716
+23.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest",1.5,2,3,2,2,2,4,2,3,2.5714285714285716
+22.0,female,Yes,"Twitter, Instagram, TikTok",6.0,5,4,4,4,2,3,2,3,3.142857142857143
+25.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",2.5,1,5,5,3,5,2,2,4,3.7142857142857144
+19.0,male,Yes,"Facebook, Instagram, YouTube, TikTok",4.5,4,3,3,3,4,3,3,3,3.142857142857143
+29.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",1.5,1,3,3,3,2,3,1,2,2.4285714285714284
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",4.5,3,3,3,3,5,1,4,4,3.2857142857142856
+21.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",4.5,2,2,1,1,1,3,1,2,1.5714285714285714
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",2.5,1,1,1,3,1,1,2,1,1.4285714285714286
+23.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4.5,2,4,5,5,5,1,4,5,4.142857142857143
+22.0,female,Yes,"Facebook, Instagram, YouTube",2.5,4,5,3,5,4,3,2,4,3.7142857142857144
+20.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",6.0,5,5,5,5,5,5,5,5,5.0
+22.0,other,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,5,5,1,3,3,4,2,1,2.7142857142857144
+27.0,female,Yes,"Facebook, Instagram, Snapchat, Discord, Pinterest, TikTok",3.5,3,3,4,4,4,4,3,5,3.857142857142857
+24.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",6.0,2,2,4,2,2,3,3,2,2.5714285714285716
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",1.5,2,4,5,5,5,1,5,4,4.142857142857143
+23.0,female,Yes,"YouTube, Pinterest",0.5,1,1,2,1,1,2,2,3,1.7142857142857142
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit, Pinterest",3.5,2,5,4,4,2,3,2,3,3.2857142857142856
+23.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat",2.5,3,3,4,2,4,2,3,2,2.857142857142857
+24.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",4.5,2,3,5,3,5,2,3,5,3.7142857142857144
+21.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4.5,2,3,4,3,1,3,2,5,3.0
+30.0,female,Yes,"Facebook, Instagram, YouTube",2.5,3,5,5,5,4,2,5,4,4.285714285714286
+23.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",3.5,2,2,5,4,5,5,5,5,4.428571428571429
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,3,3,2,2,3,3,1,1,2.142857142857143
+29.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",6.0,3,5,4,5,5,3,3,5,4.285714285714286
+20.0,male,Yes,"Instagram, YouTube, Discord, Reddit, Pinterest",3.5,2,3,5,5,5,5,5,5,4.714285714285714
+26.7,female,Yes,"Facebook, YouTube",6.0,2,3,5,3,5,2,3,4,3.5714285714285716
+24.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",1.5,1,3,3,2,3,3,4,5,3.2857142857142856
+26.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat",3.5,3,4,4,4,5,1,2,3,3.2857142857142856
+22.0,male,Yes,"Facebook, YouTube, Discord",2.5,2,3,3,4,3,4,1,2,2.857142857142857
+23.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",4.5,2,4,5,3,5,3,2,3,3.5714285714285716
+19.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",4.5,2,4,4,4,5,2,4,2,3.5714285714285716
+21.0,female,Yes,"Twitter, Instagram, YouTube, TikTok",2.5,3,4,4,4,5,1,2,4,3.4285714285714284
+20.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",4.5,5,5,5,5,2,3,2,4,3.7142857142857144
+22.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",6.0,4,4,2,3,2,3,4,3,3.0
+22.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest",6.0,3,4,5,5,4,3,1,5,3.857142857142857
+23.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",6.0,4,5,5,5,2,3,1,5,3.7142857142857144
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",6.0,5,5,5,5,5,2,4,5,4.428571428571429
+20.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Pinterest, TikTok",6.0,2,3,3,2,1,3,3,2,2.4285714285714284
+27.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",1.5,1,2,3,1,2,3,4,2,2.4285714285714284
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,4,4,4,4,2,4,3,5,3.7142857142857144
+21.0,female,Yes,Facebook,6.0,3,5,4,5,4,3,4,5,4.285714285714286
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Pinterest",2.5,4,2,2,2,3,3,2,1,2.142857142857143
+24.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",4.5,1,5,4,5,3,3,4,5,4.142857142857143
+19.0,male,Yes,"Facebook, Twitter, Instagram, YouTube",3.5,3,3,4,3,2,2,2,4,2.857142857142857
+52.0,male,Yes,"Facebook, YouTube",1.5,3,3,3,2,3,2,2,3,2.5714285714285716
+26.0,male,Yes,"Facebook, Instagram, YouTube, Reddit, Pinterest, TikTok",6.0,3,4,4,4,3,3,2,3,3.2857142857142856
+44.0,male,Yes,Facebook,0.5,1,2,1,1,1,1,1,1,1.1428571428571428
+44.0,male,Yes,Facebook,0.5,1,1,1,1,1,1,1,1,1.0
+19.0,female,Yes,"Facebook, YouTube, Discord, Pinterest",3.5,2,4,5,3,5,5,1,5,4.0
+35.0,male,Yes,"Facebook, Snapchat, Reddit",3.5,5,5,5,5,5,1,1,5,3.857142857142857
+21.0,female,Yes,"Facebook, Instagram, Snapchat",6.0,2,5,3,5,4,2,4,4,3.857142857142857
+20.0,female,Yes,"Facebook, Instagram, TikTok",4.5,5,5,5,5,2,2,1,4,3.4285714285714284
+24.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Reddit",6.0,4,2,5,1,3,2,4,4,3.0
+21.0,female,Yes,"Facebook, Instagram, YouTube, Reddit, Pinterest",3.5,3,5,5,5,5,1,1,3,3.5714285714285716
+24.0,male,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",6.0,4,4,3,3,2,3,1,3,2.7142857142857144
+21.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",3.5,3,5,5,5,5,3,1,5,4.142857142857143
+17.0,male,Yes,"Facebook, Instagram, YouTube, Discord",6.0,3,5,5,5,3,2,1,5,3.7142857142857144
+26.0,female,Yes,Facebook,4.5,2,4,3,4,3,3,2,4,3.2857142857142856
+18.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",3.5,4,5,5,4,4,3,3,5,4.142857142857143
+18.0,female,Yes,"Facebook, Instagram, YouTube, Discord",3.5,1,3,3,2,1,3,1,2,2.142857142857143
+18.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Reddit, Pinterest, TikTok",3.5,4,3,4,4,1,3,1,3,2.7142857142857144
+23.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",3.5,2,4,5,4,2,3,2,4,3.4285714285714284
+20.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",1.5,3,5,2,5,1,2,3,3,3.0
+23.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",6.0,3,4,5,4,4,3,2,3,3.5714285714285716
+25.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Reddit, Pinterest",0.5,3,2,3,3,3,4,3,2,2.857142857142857
+26.0,male,Yes,"Facebook, Instagram, YouTube, Reddit",2.5,3,3,5,4,4,1,4,5,3.7142857142857144
+20.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",6.0,3,4,5,4,5,2,4,4,4.0
+19.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",1.5,1,3,4,2,2,3,3,1,2.5714285714285716
+17.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",2.5,3,2,5,4,5,5,1,4,3.7142857142857144
+24.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",3.5,5,3,3,5,4,2,3,3,3.2857142857142856
+29.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",6.0,5,4,5,4,3,3,4,4,3.857142857142857
+30.0,female,Yes,"Facebook, Instagram, YouTube",3.5,1,2,3,3,2,4,3,3,2.857142857142857
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, TikTok",3.5,4,4,5,5,5,1,3,5,4.0
+23.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",6.0,2,4,4,4,3,3,3,5,3.7142857142857144
+21.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest",6.0,2,3,4,3,4,4,4,5,3.857142857142857
+20.0,female,Yes,"Facebook, Instagram, YouTube, Discord",6.0,3,5,5,5,5,5,5,5,5.0
+21.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Snapchat, Discord, Reddit",4.5,2,5,5,4,5,1,3,5,4.0
+22.0,female,Yes,YouTube,4.5,2,3,4,2,2,1,1,4,2.4285714285714284
+22.0,female,Yes,"Facebook, Instagram",2.5,2,2,5,3,5,2,5,3,3.5714285714285716
+22.0,female,Yes,"Facebook, Instagram, Snapchat",6.0,2,3,5,2,1,2,2,3,2.5714285714285716
+27.0,female,Yes,"Facebook, Instagram, YouTube, Reddit, TikTok",4.5,3,4,3,3,4,2,4,2,3.142857142857143
+21.0,male,Yes,"Facebook, Instagram, YouTube",6.0,2,2,2,3,2,3,1,2,2.142857142857143
+23.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, TikTok",4.5,2,4,4,3,4,4,4,4,3.857142857142857
+22.0,male,Yes,"Facebook, Instagram, YouTube, Discord",3.5,5,4,2,4,3,3,4,2,3.142857142857143
+21.0,female,Yes,YouTube,3.5,4,3,3,3,2,5,3,1,2.857142857142857
+23.0,male,Yes,"Facebook, YouTube, Discord, Reddit",2.5,1,2,3,2,3,3,1,3,2.4285714285714284
+21.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",6.0,3,4,4,4,3,3,4,4,3.7142857142857144
+20.0,male,Yes,"Facebook, Instagram, YouTube",4.5,2,3,4,2,2,4,3,3,3.0
+23.0,male,Yes,"Facebook, Instagram, YouTube, Discord, Reddit, Pinterest",1.5,1,2,5,3,3,4,1,3,3.0
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Pinterest, TikTok",3.5,3,5,5,5,5,3,3,5,4.428571428571429
+20.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat",6.0,4,3,5,5,5,1,4,5,4.0
+21.0,male,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord",3.5,4,4,4,5,4,1,4,4,3.7142857142857144
+25.0,female,Yes,"Facebook, Twitter, Instagram, YouTube, Pinterest",2.5,2,2,3,3,1,3,1,2,2.142857142857143
+21.0,female,Yes,"Facebook, Instagram, Discord",3.5,1,4,4,4,2,1,1,2,2.5714285714285716
+28.0,female,Yes,"Facebook, Instagram, YouTube, Discord, Reddit",4.5,1,4,5,4,1,3,1,4,3.142857142857143
+22.0,female,Yes,"Facebook, Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",3.5,1,5,3,5,1,1,1,3,2.7142857142857144
+60.0,male,Yes,"Facebook, YouTube",2.5,1,1,1,1,3,3,3,1,1.8571428571428572
+49.0,male,Yes,"Facebook, YouTube, Pinterest",0.5,3,3,4,3,3,3,3,3,3.142857142857143
+34.0,female,Yes,"Facebook, Instagram, YouTube",0.5,1,1,1,1,3,4,1,1,1.7142857142857142
+56.0,male,Yes,"Facebook, Twitter, YouTube, Pinterest",2.5,1,1,1,1,1,1,1,1,1.0
+51.0,male,Yes,"Facebook, Twitter, Instagram, YouTube",1.5,3,4,2,3,4,3,3,2,3.0
+23.0,female,Yes,Facebook,2.5,3,3,3,2,2,3,3,4,2.857142857142857
+21.0,female,Yes,"Facebook, YouTube, Discord",4.5,3,3,3,2,3,3,1,2,2.4285714285714284
+50.0,male,Yes,"Facebook, Instagram",1.5,1,1,1,1,1,1,1,1,1.0
+22.0,female,Yes,"Twitter, Instagram, YouTube",3.5,1,4,5,5,1,4,1,3,3.2857142857142856
+28.0,female,Yes,"Facebook, Instagram, YouTube, Pinterest",2.5,1,5,4,5,2,2,2,5,3.5714285714285716
+13.0,male,Yes,"Instagram, YouTube, Discord",4.5,1,3,3,1,1,3,1,3,2.142857142857143
+14.0,male,Yes,"Instagram, Discord",2.5,2,4,3,2,1,3,1,2,2.2857142857142856
+13.0,male,Yes,"Twitter, Instagram, YouTube, Discord, Pinterest",6.0,3,4,2,4,2,3,2,2,2.7142857142857144
+23.0,male,Yes,"Facebook, Instagram, YouTube, Discord",4.5,2,3,4,4,1,3,1,3,2.7142857142857144
+18.0,male,Yes,"Discord, Reddit",1.5,1,3,2,1,1,2,1,1,1.5714285714285714
+18.0,male,Yes,Pinterest,6.0,1,3,5,3,5,1,2,5,3.4285714285714284
+15.0,male,Yes,"Instagram, YouTube, Discord, Reddit",4.5,1,3,3,3,3,3,3,1,2.7142857142857144
+20.0,female,Yes,"Instagram, YouTube, Snapchat, Discord, Reddit, Pinterest, TikTok",1.5,1,3,5,3,5,1,2,5,3.4285714285714284
+20.0,female,Yes,"Facebook, Instagram, YouTube",6.0,2,4,5,3,1,3,2,4,3.142857142857143
+35.0,female,Yes,"Facebook, Instagram, YouTube",1.5,2,3,3,2,1,2,2,2,2.142857142857143
+26.0,female,Yes,"Facebook, YouTube, TikTok",2.5,3,3,4,4,4,5,3,4,3.857142857142857
+30.0,female,Yes,"Facebook, Instagram, YouTube",4.5,4,3,4,5,4,2,2,4,3.4285714285714284
+32.0,female,Yes,"Facebook, Instagram",3.5,3,5,5,5,5,1,4,5,4.285714285714286
+24.0,male,Yes,"Facebook, Instagram, YouTube",2.5,3,4,3,4,4,2,4,3,3.4285714285714284
+26.0,female,Yes,"Facebook, YouTube",1.5,2,3,4,4,4,2,4,4,3.5714285714285716
+29.0,female,Yes,"Facebook, YouTube",2.5,4,3,2,3,3,3,4,2,2.857142857142857
+21.0,male,Yes,"Facebook, Twitter, Instagram, YouTube, Discord, Pinterest",2.5,2,3,3,2,2,3,4,4,3.0
+53.0,male,Yes,"Facebook, YouTube",0.5,1,3,1,1,3,3,2,2,2.142857142857143
