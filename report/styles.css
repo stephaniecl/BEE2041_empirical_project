@@ -15,3 +15,12 @@ blockquote {
   margin-bottom: 15px;
   text-align: left;
 }
+
+
+.corr-subtitle {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: left;
+}
