@@ -10,8 +10,9 @@ This blog investigates whether the harms describedin the lawcase are detectable 
 Hence I look at individual data showing average social media user's survey data and then look at how the broader population has responded to the lawsuit by scraping the news headlines over the past 12 months.
 
 ## Requirements
-Install all dependencies with bash:
+Python 3.14.4
 
+Install dependencies with bash:
 ```bash
 python -m pip install pandas numpy matplotlib seaborn statsmodels scipy requests pyyaml jupyter 
 ```
