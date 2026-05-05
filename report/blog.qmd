@@ -265,7 +265,7 @@ To understand how the media attention around the negative effects of social medi
 
 ```{python}
 #| label: Google-News-Tracker
-#| fig-cap: "Tracking the number of news articles posted with social media and mental health over the last 12 months"
+#| fig-cap: "Figure 3: Tracking the number of news articles posted with social media and mental health over the last 12 months. Final Date is 3rd May 2026"
 #| code-fold: true
 
 # FIGURES FOR THE GOOGLE NEWS ARTICLES
