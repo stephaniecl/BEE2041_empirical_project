@@ -1,0 +1,17 @@
+blockquote {
+  font-size: 1.4em;
+  font-style: italic;
+  border-left: 4px solid #6B4F8C;
+  padding-left: 20px;
+  color: #2E4057;
+  margin: 30px 0;
+}
+
+
+.table-caption {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: left;
+}

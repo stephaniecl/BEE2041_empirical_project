@@ -1,9 +1,11 @@
-title: "Social Media and Mental Health: Is There a Hidden Cost?"
+---
+title: "Social Media and Mental Health: What are the costs?"
 author: "Stephanie Clarke"
-date: "2026-05-02"
+date: "2026-05-05"
 format:
   html:
     theme: pulse
+    css: styles.css
     toc: true
     toc-title: "Contents"
     code-fold: true
@@ -13,5 +15,338 @@ format:
 execute:
   echo: true
   warning: false
+---
 
-  
+## Introduction
+
+In March 2026, the jury found Meta, the social media company, and YouTube guilty of providing a service with harmful and addictive features. This had been brought to could by K.G.M., a now 20-year-old woman who had been addicted to both platforms by age nine and experienced extreme anxiety and depression from her usage [1]. Due to the metal health deterioration brought upon her by these companies, they were made to pay her a total of $6 million of compensation [2].
+
+The new question crossing every social media user’s mind is whether these platforms could be harming them too. For the first time ever, Meta has officially been found guilty of putting engagement and profit over their user’s wellbeing. This verdict is the first of its kind, being labelled a landslide case, potentially prompting many more victims to come forward from the success of the ruling. However, legal cases only tell individual stories. What does the data say about the broader population?
+
+This post uses survey data collected from 481 social media users to investigate whether the harms spoken about in K.G.M.’s case (depression, social comparison and validation-seeking) are detectable is the average consumer [3]. Using correlation analysis, regression modelling and data visualisations, I attempt to gain an insight into the important question: “Does spending more time on social media deteriorate mental health?”
+
+
+
+> "How are we measuring wellbeing?"
+
+> "We're not."
+> 
+> *— Internal YouTube document, 2021, read at the K.G.M. trial*
+
+
+## Describing the Data
+
+After cleaning the data, we are left with a dataset of 481 social media users, accessed from a publicly available survey dataset hosted on Kaggle. The dataset captures usage habits and a range of self-reported mental health indicators. Respondents rank themselves on a scale of 1 to 5 across topics of distraction, worry, depression, validation seeking, concentration difficulty, number of social comparisons made and how they feel about the comparisons they make. I chose to combine the six mental health indicators per respondent, giving us a single mental health score for each user. This score represents the burden that each user faces and how this compares to their social media usage in hours per day. A score of 1 represents no reported mental health toll, while 5 represents the maximum across all categories. These indicators were selected because they reflect the psychological harms mentioned in the K.G.M case against Meta, making this data set well-suited for answering my research question.
+However, this data set does have its limitations. Firstly, whenever a correlation is investigated with mental health, everyone’s stories are unique and there are unlimited reasons that could have led to that effect. This data set does not portray other aspects about that person’s life and other key factors which affect mental health (such as genetics, past traumas, environmental factors and many more). The sample size of 481 will amplify this as a small sample set may not be representative of the greater population – especially when these previous factors are not controlled. Lastly, as a self-reported survey, the data could fall victim to social desirability bias, where individuals report socially desirable traits to portray a good image of themselves [4]. These limitations mean the findings cannot be treated as causal truth for the population but can still give us an insight into social media’s effects.
+
+```{python}
+#| label: Summary-statistics
+#| fig-cap: "Table 1: Summary Statistics."
+import pandas as pd
+import numpy as np
+import statsmodels.formula.api as smf
+from scipy import stats
+import os
+os.chdir('C:/Users/steph/Documents/empiricalproject')
+
+# cleaned kaggle data
+df = pd.read_csv('data/clean/kaggle_clean.csv')
+
+
+# creating an overall mental health score for each individual - the average for each person over all the catogories
+df['mental_health_score'] = df[[
+    'distraction',
+    'worry',
+    'concentration_difficulty',
+    'social_comparison',
+    'feeling_about_comparisons',
+    'seeking_validation',
+    'depression'
+]].mean(axis=1)
+
+
+
+
+# summary statistics
+summary_statistics = df[[
+    'social_media_time',
+    'mental_health_score',
+    'depression',
+    'seeking_validation',
+    'feeling_about_comparisons',
+    'worry',
+    'concentration_difficulty',
+    'restless_without_social_media'
+]].describe().round(2).T[['mean', 'std', 'min', 'max']]
+
+summary_statistics
+```
+
+The summary statistics show us the overall view of the data. The average respondent spends 3.5 hours on social media daily and records a mental health score of 3.07 – sitting just above the midpoint. Depression and worry hold the highest averages at 3.26 and 3.56 respectively making them the most prevalent symptoms. Depression and concentration difficulty have the highest standard deviation (both above 1.3), showing that these two factors are the most variable. The full range of scores run from 1.0 to 5.0 in all mental health categories, confirming a wide spread of experiences among users.
+
+## Correlation Analysis
+
+<div style="text-align: center; font-size: 4em; font-weight: bold; color: #6B4F8C; margin: 20px 0;">
+r = 0.373
+</div>
+
+<div style="text-align: center; font-size: 1.2em; color: #555; margin-bottom: 30px;">
+correlation between daily social media time in hours per day and the composite mental health score (p = 0.000)
+</div>
+
+This suggests a meaningful positive relationship as when time spent on social media increases, mental wellbeing tends to deteriorate. A p-value of 0.000 also means we can be confident that this is not a finding just by chance. 
+
+```{python}
+#| label: Scatter-Graph
+#| fig-cap: "Figure 1: Scatter graph between social media usage and mental health."
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+import seaborn as sns
+import numpy as np
+from scipy import stats
+from datetime import datetime
+
+# deciding on a colour code for all figures
+COLOUR_MAIN   = '#6B4F8C'
+COLOUR_ACCENT = '#F4845F'
+FONT_TITLE    = 14
+FONT_LABEL    = 11
+FONT_TICK     = 9
+
+# FIGURES FOR THE KAGGLE SOCIAL MEDIA AND MENTAL HEALTH DATA
+df = pd.read_csv('data/clean/kaggle_analysis.csv')
+
+# scatter plot of social media use vs mental health score
+x = df['social_media_time']
+y = df['mental_health_score']
+
+slope, intercept, r, p, _ = stats.linregress(x, y)
+line_x = np.linspace(x.min(), x.max(), 200)
+line_y = slope * line_x + intercept
+
+fig, ax = plt.subplots(figsize=(8, 5))
+
+ax.scatter(
+    x, y,
+    alpha=0.35,
+    s=40,
+    color=COLOUR_MAIN,
+    edgecolors='white',
+    linewidths=0.4,
+    label='Respondent'
+)
+
+ax.plot(
+    line_x, line_y,
+    color=COLOUR_ACCENT,
+    linewidth=2,
+    label=f'Regression line (r = {r:.2f}, p < 0.001)'
+)
+
+ax.set_xlabel('Daily Social Media Use (hours)', fontsize=FONT_LABEL)
+ax.set_ylabel('Composite Mental Health Score', fontsize=FONT_LABEL)
+ax.set_title(
+    'Daily Social Media Use vs Composite Mental Health Score',
+    fontsize=FONT_TITLE, fontweight='bold'
+)
+ax.legend(fontsize=FONT_TICK)
+ax.tick_params(labelsize=FONT_TICK)
+ax.spines[['top', 'right']].set_visible(False)
+
+# annotate with key stats
+ax.annotate(
+    f'r = {r:.3f}, p < 0.001',
+    xy=(0.05, 0.92), xycoords='axes fraction',
+    fontsize=9, color=COLOUR_ACCENT,
+    bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor=COLOUR_ACCENT, alpha=0.8)
+)
+
+
+plt.tight_layout()
+plt.show()
+```
+
+While there is considerable spread in the data across all hours of usage, reflecting how all individuals are affected differently by social media, the regression line confirms a clear upward trend between social media usage and mental health deterioration.
+However, from the visualisation, an important limitation has emerged regarding the data’s structure. Because the original survey only measured the time spent on social media as range categories rather than exact hours, we had to convert each range to its midpoint - coding “between 3 and 4 hours” as 3.5, for example. This means that variation within each range is lost, visible on the scatter plot as the vertical columns of dots. This issue especially effects heavy users who are using social media for “more than 5 hours.” They are all categorised as 6 even though their hours spent online might vary enormously. This is particularly relevant when looking at the K.G.M. law case against Meta as it was said that she would spend up to 16 hours a day on Instagram [5]. This is something that would have gone unrecorded in this dataset and likely results in my analysis undermining the mental health impact on the heaviest users.
+
+```{python}
+#| label: Correlation-Heatmap
+#| fig-cap: "Figure 2: Correlation matrix between daily social media use and individual mental health indicators."
+#| code-fold: true
+
+mental_health_columns = {
+    'depression':                   'Depression',
+    'seeking_validation':           'Seeking Validation',
+    'feeling_about_comparisons':    'Response to Social Comparison',
+    'worry':                        'Worry',
+    'concentration_difficulty':     'Concentration Difficulty',
+    'restless_without_social_media':'Restlessness Without Social Media'
+}
+
+# correlation heatmap of social meadia time vs the mental health indicators
+columns_for_heatmap = ['social_media_time'] + list(mental_health_columns.keys())
+labels              = ['Daily Usage (hrs)'] + list(mental_health_columns.values())
+
+corr_matrix = df[columns_for_heatmap].corr()
+corr_matrix.columns = labels
+corr_matrix.index   = labels
+
+fig, ax = plt.subplots(figsize=(9, 7))
+
+sns.heatmap(
+    corr_matrix,
+    annot=True,
+    fmt='.2f',
+    cmap='coolwarm',
+    center=0,
+    vmin=-1, vmax=1,
+    linewidths=0.5,
+    linecolor='white',
+    annot_kws={'size': 9},
+    ax=ax
+)
+
+ax.set_title(
+    'Correlation Between Daily Social Media Use\nand Mental Health Indicators',
+    fontsize=FONT_TITLE, fontweight='bold', pad=15
+)
+ax.tick_params(axis='x', labelsize=FONT_TICK, rotation=30)
+ax.tick_params(axis='y', labelsize=FONT_TICK, rotation=0)
+
+# fixing overlap on the x-axis
+plt.setp(ax.get_xticklabels(), rotation=45, ha='right', fontsize=FONT_TICK)
+
+plt.tight_layout()
+plt.show()
+```
+
+The correlation matrix reveals that daily usage is most strongly associated with restlessness when unable to access social media (r = 0.4). This points towards the addictive nature of social media mentioned in the K.G.M. lawsuit and how it keeps you wanting to consume. Depression and worry are the next closely related topics to daily usage at r = 0.33 and r = 0.32 respectively, showing that extensive use of features like infinite scroll are linked to depression and anxiety. 
+
+The heatmap also reveals relationships between the mental health indicators themselves which are worth looking into. Depression and worry show the strongest correlation on the chart at 0.59, suggesting that once social media begins to affect one area of mental wellbeing, others are likely to follow. Concentration difficulty supports this pattern, correlating closely with both depression (r = 0.51) and worry (r = 0.55), indicating that these symptoms may not occur in isolation but as a cluster. Another interesting correlation with concentration difficulty is restlessness without social media at r = 0.47. This tells us that users experiencing withdrawals from their social media feeds can find it increasingly difficult to focus on anything else. These findings analysed together point to a feedback loop where heavy usage creates restlessness, restlessness generates an inability to concentrate which in turn causes worry and that compounds into depression. This will cause a further lack of concentration which feeds depression even further, a cycle that the design of platforms like Instagram and TikTok’s algorithms may be actively sustaining.  However, it is important to acknowledge that this self-reinforcing cycle portrays the extreme outcome and is unlikely to align with the average user’s experience. Correlation does not prove causation, one of Meta’s arguments in the trial was that Instagram offered a respite from the real-world, meaning people with poorer mental health may turn to social media more rather than the other way around [6]. Regardless of causation, there are still strong correlations between social media usage across many of the mental health indicators, showing that they are connected. 
+
+```{python}
+#| label: OLS-Regression
+#| fig-cap: "Table 2: OLS Regression - mental_health_score ~ social_media_time + age + C(gender)."
+#| code-fold: true
+
+# correlation between social media time and mental health score
+corr, p_val = stats.pearsonr(df['social_media_time'], df['mental_health_score'])
+
+
+print("CORRELATION: Social media time vs mental health score")
+print(f"Overall correlation:         {corr:.3f}")
+print(f"P-value:                     {p_val:.3f}")
+
+
+# OLS regression
+model_base = smf.ols(
+    'mental_health_score ~ social_media_time + age + C(gender)',
+    data=df
+).fit()
+
+print("\nOLS Table")
+print(model_base.summary().tables[1])
+
+print(f"R-squared: {model_base.rsquared:.3f}")
+print(f"Adjusted R-squared: {model_base.rsquared_adj:.3f}")
+```
+<div class="table-caption">Table 2: OLS Regression Results — mental health score ~ social media time + age + gender</div>
+
+To test whether this relationship holds even when other demographic factors such as age and gender are held, I have decided to run an OLS regression. This allows us to see an isolated effect of time spent on social media with mental health after accounting for the fact that different demographics may have different mental health baselines for unrelated reasons.
+For every additional hour of daily social media consumed, the composite mental health score increased by 0.1358 points on the 1 to 5 scale (1 most mentally stable and 5 being the least). The p-value of 0.000 shows that this value is highly statistically significant.
+Even after controlling for age and gender, daily social media time is a significant predictor of poorer mental health, and each additional hour online is associated with a 0.1358-point increase in mental health burden. This shows that it’s not just one group of people that are affected, but everyone. As seen from the summary statistics, the average user spends 3.5 hours daily and records a mental health score of 3.07, if we model for someone with 16 hours daily (like what K.G.M.’s usage was), we gain a composite score of 4.77 – nearing the upper limit of a score of 5 and the highest mental deterioration possible proving that our model aligns with the recent law case’s ruling.
+The adjusted R² is 0.171, meaning that the model explains only 17% of the variation in mental health outcomes across respondents. While this shows that the majority of the variation remains unexplained, it reflects how mental health is so individual for everyone and the causes are not usually pinpointed on one variable, so is not unexpected. Yet even if social media is not the whole story, the low p-value still tells us with confidence that the coefficient on social media time is positive and does make a difference to user’s mental health.
+
+
+## Media Coverage on Social Media and Mental Health
+
+To understand how the media attention around the negative effects of social media has been impacted by the K.G.M lawsuit, I decided to investigate a second data source, Google News. Using Python’s request library to scrape Google’s RSS news feed, I captured the titles, publication dates and sources of articles mentioning both social media and mental health published from June 2025 to the 3rd of May 2026. This method generates a maximum of 100 articles, a notable limitation as more recent articles from larger publications are favoured by Google’s algorithms and more likely to be collected, meaning older months may be underrepresented. The web scraping does also not distinguish between positive and negative news articles, so many of the articles may have a positive view of social media. Even so, our ability to see the volume of articles still gives us a good picture of how prominent the topic is within the public eye, regardless of the angle.
+
+```{python}
+#| label: Google-News-Tracker
+#| fig-cap: "Tracking the number of news articles posted with social media and mental health over the last 12 months"
+#| code-fold: true
+
+# FIGURES FOR THE GOOGLE NEWS ARTICLES
+df_news = pd.read_csv('data/raw/google_news_articles.csv')
+
+df_news['date'] = pd.to_datetime(df_news['date'], errors='coerce', utc=True)
+df_news['date'] = df_news['date'].dt.tz_localize(None)
+df_news['month'] = df_news['date'].dt.to_period('M')
+
+monthly_counts = df_news.groupby('month').size().reset_index(name='count')
+monthly_counts['month_dt'] = monthly_counts['month'].dt.to_timestamp()
+
+fig, ax = plt.subplots(figsize=(10, 5))
+
+ax.bar(
+    monthly_counts['month_dt'],
+    monthly_counts['count'],
+    color=COLOUR_MAIN,
+    alpha=0.85,
+    width=20
+)
+
+# adding the date K.G.M won the case against Meta (25/03/2026)
+# however because all news items posted in march are logged for the 1st of March we will label it for then
+verdict_date = datetime(2026, 3, 1)
+ax.axvline(verdict_date, color=COLOUR_ACCENT, linewidth=2, linestyle='--')
+ax.text(
+    verdict_date, ax.get_ylim()[1] * 0.8,
+    '      K.G.M. wins case\n      against Meta',
+    color=COLOUR_ACCENT,
+    fontsize=9,
+    fontweight='bold'
+)
+
+ax.set_xlabel('Month', fontsize=11)
+ax.set_ylabel('Number of Articles', fontsize=11)
+ax.yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
+ax.set_title(
+    'Google News Coverage: Social Media & Mental Health\nPast 12 Months',
+    fontsize=13, fontweight='bold'
+)
+ax.spines[['top', 'right']].set_visible(False)
+
+plt.tight_layout()
+plt.show()
+```
+
+The bar chart visually tracks the Google News coverage of the social media and mental health articles month by month. As flagged previously, the earlier months may be underrepresented in this data set, but despite this there is a consistent pattern over multiple months showing a lack of coverage in 2025. There is also a clear concentration of articles in January 2026 coinciding with when the when the jury selection took place for the K.G.M. lawsuit took place. In this month, TikTok and Snapchat both carried out confidential settlements before the trial even began suggesting that other major platforms were not even willing to let a jury examine the evidence against them [7]. 
+The peak in March 2026 aligns directly with the verdict of the K.G.M. against Meta case at 21 articles. This suggests that the ruling spread this topic to a wider audience and led to a broader public and media conversation. The subsequent dip in April indicates that the initial buzz brought to interest by the case had died down, yet it remained at a higher level than those without the headline legal case. Nevertheless, by the 3rd of May, there are already 6 articles on the topic suggesting that May could be another spike, yet it is too early to draw conclusions about the full month. 
+
+The consistency of the upward trend in articles published across multiple months, together with the clear concentration of coverage around the jury selection in January and the verdict in March 2026, suggests it took a landmark case to bring this topic to the mainstream. 
+
+## Conclusion
+
+The $6 million K.G.M. case verdict led me to question if this was a fundamental problem with social media platforms and how this affects the average user.
+After looking into individual survey data, we could see that the correlation between daily usage and mental health burden is 0.373 (p = 0.00) suggesting there is an effect on mental health by social media and it is not a chance finding. The scatter graph portrays this connection visually and although there is a large spread of data, representing individual experiences, there is a consistent upward direction.
+The correlation heatmap reveals that restlessness is most strongly associated with screen time, validating the claim that platforms are purposely addictive, a key point in the K.G.M. case. Furthermore, the significant correlation between depression, worry and concentration difficulty (all above 0.5) suggests that symptoms trigger each other where social media dependency compounds mental distress. This does not result in a single isolated symptom but a self-reinforcing cycle which likely characterises the most severe cases, including K.G.M.’s own experience.
+By carrying out an OLS regression, we can confirm the negative effect is not simply dependent on who the user is. It shows us that independent of age or gender, the effect of one extra hour of social media leads to a 0.1358-point increase in mental health burden. For an average user, this will have small effects, but for heavy users like K.G.M who reach 16 hours of screen time daily, this can cause extreme deterioration. The regression does not prove that social media causes poor mental health, but it does show us that the relationship is real and measurable across an ordinary sample of users.
+Lastly, the Google News data places the individual analysis into a broader environment. Since the K.G.M legal case was brought to court, it immediately gained attraction in the news, causing an upward trend in the number of articles published monthly. This implies that now that this topic has come to light, the public have started questioning social media more. For many, the topic of social media with deterioration of mental health has become increasingly difficult to ignore.
+Overall, these findings point to a consistent conclusion. Social media usage can be linked to poorer mental health. As more people begin to recognise these effects in themselves, public conversation has followed. The steady increase in media coverage, suggests that what K.G.M. experienced in the extreme is also what many ordinary users are quietly experiencing too.
+
+
+## References
+
+[1] The Guardian (2026). 'Accountability has arrived': dual US court losses show shifting tide against Meta and co.
+https://www.theguardian.com/technology/2026/mar/26/us-court-social-media-meta-youtube
+
+[2] New York Times (2026). Meta and YouTube Found Negligent in Landmark Social Media Addiction Case.
+https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html
+
+[3] Kaggle (2023). Social Media and Mental Health dataset. 
+https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health/data
+
+[4] ScienceDirect (2022). Social Desirability Bias.
+https://www.sciencedirect.com/topics/psychology/social-desirability-bias
+
+[5] Bloomberg Law (2026). Social media plaintiff says she spent 16 hours scrolling one day.
+https://news.bloomberglaw.com/litigation/social-media-plaintiff-says-she-spent-16-hours-scrolling-one-day
+
+[6] The Guardian (2026). How Meta’s victim-blaming failed to sway jurors in landmark social media addiction trial.
+https://www.theguardian.com/technology/2026/mar/29/meta-loss-social-media-addiction-trial
+
+[7] The Spencer Law Firm (2026). Social Media Addiction Lawsuit - Social Media on Trial.
+https://www.spencer-law.com/post/social-media-addiction-trial
