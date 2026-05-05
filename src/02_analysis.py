@@ -6,12 +6,7 @@ from scipy import stats
 # cleaned kaggle data
 df = pd.read_csv('data/clean/kaggle_clean.csv')
 
-# steps to analyse:
-# 1. creating an overall mental health score for each individual - the average for each person over all the catogories
-# 2. does time spent correlate with a lower mental health score?
-# 3. is there a link between social comparisons and depression? - something looked at in the case
-
-# 1.
+# creating an overall mental health score for each individual - the average for each person over all the catogories
 df['mental_health_score'] = df[[
     'distraction',
     'worry',
@@ -39,15 +34,17 @@ summary_statistics = df[[
 
 summary_statistics.to_csv('output/tables/summary_statistics.csv')
 
-#2 
-# correlation between social media time and mental health score
+
+# finding the correlation value between social media time and mental health score
 corr, p_val = stats.pearsonr(df['social_media_time'], df['mental_health_score'])
 
-
+# print to see values to 3 decimal places
 print("CORRELATION: Social media time vs mental health score")
 print(f"Overall correlation:         {corr:.3f}")
 print(f"P-value:                     {p_val:.3f}")
 
+
+# ols regression to analyse the affect of social media usage on mental health independant of age and gender
 model_base = smf.ols(
     'mental_health_score ~ social_media_time + age + C(gender)',
     data=df

@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-# ------------------ cleaning kaggle social media and mental health data ------------------
+# cleaning kaggle social media and mental health data
 # importing raw data
 df = pd.read_csv('data/raw/kaggle_socialmedia_mentalhealth.csv')
 
