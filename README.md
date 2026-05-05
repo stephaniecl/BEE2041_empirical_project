@@ -5,14 +5,18 @@
 ## Motivation
 This project was inspired by the lawsuit that K.G.M. placed on Meta over how the platform was ruining her mental health. On the 25th of March she won $6 million of compensation, proving that the company did cause her harm. 
 
+This blog investigates whether the harms describedin the lawcase are detectable at scale across ordinary social media users.
+
 Hence I look at individual data showing average social media user's survey data and then look at how the broader population has responded to the lawsuit by scraping the news headlines over the past 12 months.
 
 ## Requirements
 Install all dependencies with bash:
 
+```bash
 python -m pip install pandas numpy matplotlib seaborn statsmodels scipy requests pyyaml jupyter 
+```
 
-Also install quarto (https://quarto.org/docs/get-started/) seperately.
+Also install [Quarto](https://quarto.org/docs/get-started/) seperately.
 
 
 ## Data sources
