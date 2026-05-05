@@ -26,7 +26,7 @@ mental_health_columns = {
     'restless_without_social_media':'Restlessness Without Social Media'
 }
 
-# Figure 1 - Correlation heatmap of social meadia time vs the mental health indicators
+# correlation heatmap of social meadia time vs the mental health indicators
 columns_for_heatmap = ['social_media_time'] + list(mental_health_columns.keys())
 labels              = ['Daily Usage (hrs)'] + list(mental_health_columns.values())
 
@@ -65,7 +65,7 @@ plt.close()
 
 
 
-# figure 2 - Scatter plot of social media use vs mental health score
+# scatter plot of social media use vs mental health score
 x = df['social_media_time']
 y = df['mental_health_score']
 
