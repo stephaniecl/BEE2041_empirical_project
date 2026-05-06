@@ -63,4 +63,4 @@ with open('output/tables/regression_summary.txt', 'w') as f:
 
 # save to seperate data set
 df.to_csv('data/clean/kaggle_analysis.csv', index=False)
-df.len()
+len(df)
