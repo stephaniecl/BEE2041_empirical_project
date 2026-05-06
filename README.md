@@ -34,11 +34,11 @@ Also install [Quarto](https://quarto.org/docs/get-started/) seperately.
 
 4. Run 'python src/02_analysis.py' which will save a second clean data to 'data/clean/kaggle_analysis.csv'
 
-5. Run 'python src/04_scrape.py' to scrape the Google News RSS feed to 'data/raw/google_news_articles.csv'
+5. Run 'python src/03_scrape.py' to scrape the Google News RSS feed to 'data/raw/google_news_articles.csv'
 
 **IMPORTANT: data scraped may be different to data saved in the report as new articles might have come out, changing the ratio of the 100 articles we are able to scrape over the last 12 months**
 
-6. Run 'python src/03_figures.py' to generate all figures to 'output/figures/'
+6. Run 'python src/04_figures.py' to generate all figures to 'output/figures/'
 
 7. 'cd report && quarto render blog.qmd' which renders the blog to 'report/blog.html'
 
