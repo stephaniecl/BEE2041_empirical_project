@@ -21,7 +21,7 @@ Also install [Quarto](https://quarto.org/docs/get-started/) seperately.
 
 
 ## Data sources
-- Kaggle dataset: https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health/data
+- Kaggle dataset: https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health/data downloading smmh.csv directly from the page
 - Google News RSS feed: scraped live from 'https://news.google.com/rss/search?q={query}&hl=en-GB&gl=GB&ceid=GB:en'
 
 
